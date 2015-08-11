@@ -15,7 +15,7 @@ namespace Test_Project_001
         {
             InitializeComponent();
 
-            tableLayoutPanel1.Show();
+            
         }
     }
 }
