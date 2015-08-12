@@ -47,7 +47,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel1.Controls.Add(this.buttonNum1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.buttonNum3, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.buttonNum2, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.buttonNum2, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
@@ -71,7 +71,7 @@
             // 
             // buttonNum2
             // 
-            this.buttonNum2.Location = new System.Drawing.Point(405, 171);
+            this.buttonNum2.Location = new System.Drawing.Point(6, 6);
             this.buttonNum2.Name = "buttonNum2";
             this.buttonNum2.Size = new System.Drawing.Size(84, 50);
             this.buttonNum2.TabIndex = 1;
