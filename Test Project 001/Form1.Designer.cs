@@ -30,7 +30,6 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.buttonNum1 = new System.Windows.Forms.Button();
-            this.buttonNum2 = new System.Windows.Forms.Button();
             this.buttonNum3 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -47,7 +46,6 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel1.Controls.Add(this.buttonNum1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.buttonNum3, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.buttonNum2, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
@@ -68,15 +66,6 @@
             this.buttonNum1.TabIndex = 0;
             this.buttonNum1.Text = "버튼 1";
             this.buttonNum1.UseVisualStyleBackColor = true;
-            // 
-            // buttonNum2
-            // 
-            this.buttonNum2.Location = new System.Drawing.Point(6, 6);
-            this.buttonNum2.Name = "buttonNum2";
-            this.buttonNum2.Size = new System.Drawing.Size(84, 50);
-            this.buttonNum2.TabIndex = 1;
-            this.buttonNum2.Text = "버튼 2";
-            this.buttonNum2.UseVisualStyleBackColor = true;
             // 
             // buttonNum3
             // 
@@ -104,7 +93,6 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button buttonNum1;
-        private System.Windows.Forms.Button buttonNum2;
         private System.Windows.Forms.Button buttonNum3;
     }
 }
